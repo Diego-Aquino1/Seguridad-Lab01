@@ -51,7 +51,7 @@ void eliminarEspaciosPuntuacion(string& texto) {
 }
 
 int main() {
-    ifstream archivoEntrada("D:/UNSA/4/Seguridad/Seguridad-Lab01/text.txt");
+    ifstream archivoEntrada("text.txt");
     if (!archivoEntrada.is_open()) {
         cerr << "No se pudo abrir el archivo de entrada." << endl;
         return 1;
@@ -70,7 +70,7 @@ int main() {
     eliminarEspaciosPuntuacion(texto);
 
     // Guardar el resultado en el archivo de salida
-    ofstream archivoSalida("D:/UNSA/4/Seguridad/Seguridad-Lab01/HERALDOSNEGROSpre.txt");
+    ofstream archivoSalida("HERALDOSNEGROSpre.txt");
     if (!archivoSalida.is_open()) {
         cerr << "No se pudo abrir el archivo de salida." << endl;
         return 1;
