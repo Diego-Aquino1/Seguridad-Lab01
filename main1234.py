@@ -42,7 +42,7 @@ print("\nSalida parcial después de eliminar espacios y puntuación:")
 print(texto[:300])  # Muestra los primeros 300 caracteres
 
 # Guardar el resultado en "HERALDOSNEGROS pre.txt"
-with open("HERALDOSNEGROS pre.txt", "w", encoding="utf-8") as archivo_salida:
+with open("HERALDOSNEGROSpre.txt", "w", encoding="utf-8") as archivo_salida:
     archivo_salida.write(texto)
 
 print("\nOperaciones de preprocesamiento completadas. Resultado guardado en 'HERALDOSNEGROS pre.txt'.")
